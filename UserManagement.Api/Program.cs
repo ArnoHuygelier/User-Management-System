@@ -1,10 +1,12 @@
+using UserManagement.Api.Installers;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+
 builder.Services.AddOpenApi();
+
+await builder.InstallDatabaseAsync();
 
 var app = builder.Build();
 
@@ -13,6 +15,9 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
+
+//Command this line out if you don't want to seed the database on application startup
+await app.SeedDatabaseAsync();
 
 app.UseHttpsRedirection();
 
