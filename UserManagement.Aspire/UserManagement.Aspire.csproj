@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\UserManagement.Api\UserManagement.Api.csproj" />
+    <ProjectReference Include="..\UserManagement.Ui.Blazor.Wasm\UserManagement.Ui.Blazor.Wasm.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,7 +1,10 @@
+using Projects;
+
 var builder = DistributedApplication.CreateBuilder(args);
 
-builder.AddProject<Projects.UserManagement_Api>("usermanagement-api");
+builder.AddProject<UserManagement_Api>("usermanagement-api");
+builder.AddProject<UserManagement_Ui_Blazor_Wasm>("usermanagement-ui-blazor-wasm");
 
-builder.AddProject<Projects.UserManagement_Dto>("usermanagement-dto");
+var app = builder.Build();
 
-builder.Build().Run();
+await app.RunAsync();
