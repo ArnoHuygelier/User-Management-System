@@ -1,4 +1,5 @@
-﻿namespace UserManagement.Services.Models
+﻿
+namespace UserManagement.Services.Models
 {
     public class ServiceResult<TData> : ServiceResult
     {
