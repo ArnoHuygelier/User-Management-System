@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement.Services", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement.Ui.Blazor.Wasm", "UserManagement.Ui.Blazor.Wasm\UserManagement.Ui.Blazor.Wasm.csproj", "{10B93682-46D2-57CE-75B0-CA43AC0021F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement.Services.Models", "UserManagement.Services.Models\UserManagement.Services.Models.csproj", "{44F4ED77-01D1-4EA8-AEA8-630677739E77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{10B93682-46D2-57CE-75B0-CA43AC0021F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10B93682-46D2-57CE-75B0-CA43AC0021F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10B93682-46D2-57CE-75B0-CA43AC0021F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F4ED77-01D1-4EA8-AEA8-630677739E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F4ED77-01D1-4EA8-AEA8-630677739E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F4ED77-01D1-4EA8-AEA8-630677739E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F4ED77-01D1-4EA8-AEA8-630677739E77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +79,7 @@ Global
 		{B86D803F-9018-4A76-A4CA-15C77E5E9092} = {5FE3D959-EEC4-4DA2-94E8-2DD3A380EFB7}
 		{FE4AED55-9D2F-4E7F-B7D9-CAD1EF14B708} = {89B2F890-C26D-441E-8C38-43E9038221AC}
 		{10B93682-46D2-57CE-75B0-CA43AC0021F2} = {B0A1F778-BD97-4586-8D34-4B5DF9DA5933}
+		{44F4ED77-01D1-4EA8-AEA8-630677739E77} = {89B2F890-C26D-441E-8C38-43E9038221AC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DBD25FCE-5F11-4EB6-A9FE-B103C94739EB}

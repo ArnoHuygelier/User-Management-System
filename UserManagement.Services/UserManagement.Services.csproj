@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\UserManagement.Dto\UserManagement.Dto.csproj" />
+    <ProjectReference Include="..\UserManagement.Repository\UserManagement.Repository.csproj" />
+    <ProjectReference Include="..\UserManagement.Services.Models\UserManagement.Services.Models.csproj" />
+  </ItemGroup>
+
 </Project>
